@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(89, 53, 138);
+    color: white;
+}
+
+.text-large {
+    font-size: 8vw;
+  }
+  
+  #todo-list {
+    margin: 20px 0;
+    max-height: 50vh;
+    overflow-y: scroll;
+  }
+  #todo-list .row {
+    background-color: #423a6f;
+  }
+  
+  #todo-list img {
+    width: 50%;
+  }
+  
+  #todo-list > .row {
+    margin: 10px 0;
+  }
+  
+  #todo-list li {
+    list-style-type: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  #search-bar {
+    background-color: rgb(72, 38, 119);
+    border: 0px solid rgb(72, 38, 119);
+    border-radius: 5px;
+    margin: 20px 0;
+    height: 50px;
+    width: 80%;
+  }
+
+  #serch li {
+    list-style-type: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  #date-n-time {
+    font-size: 12px;
+  }
+  
+  #new-item-text,
+  #new-item-btn {
+    width: 100%;
+  }
+  
+  input[type="checkbox"]:checked + li {
+    text-decoration: line-through;
+  }
+
+  #search-bar {
+    width: 80%;
+  }
+
+  #new-item-text {
+    background-color: rgb(72, 38, 119);
+    border: 0px solid rgb(72, 38, 119);
+    border-radius: 5px;
+    margin: 20px 0;
+    height: 50px;
+    width: 100%;
+  }
+
+  #search-item {
+    background-color: rgb(72, 38, 119);
+  }
+  #new-item-btn,
+  #sear-tod {
+    background-color: rgb(72, 38, 119);
+    margin: 20px 0;
+    height: 50px;
+  }
+
+  /* .input-group-text {
+    width: 24%;
+    background-color: rgb(90, 54, 139);
+  } */
